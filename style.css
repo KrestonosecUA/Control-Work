@@ -46,13 +46,21 @@ body {
     line-height: 30px; /* 166.667% */
     margin-bottom: 54px;
 }
+.header-social-icons {
+    height: 48px;
+    display: flex;
+}
+.header-social-link {
+    display: block;
+    height: 100%;
+}
 .header-social-icon {
     margin-right: 10px;
-    height: 48px;
+    height: 100%;
     border-radius: 50%;
 }
 .header-social-icon:hover {
-    border: 3px solid rgba(190, 78, 3, 0.5);
+    opacity: 0.8;
 }
 .header-image {
     border-radius: 50%;
@@ -70,6 +78,7 @@ body {
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
+    transition: 0.5s;
 }
 .send-request {
     color: #F9F9F9;
@@ -78,6 +87,7 @@ body {
 }
 .send-request:hover {
     background-color: #c70226;
+    transition: 0.5s;
 }
 .download-cv {
     border: 2px solid #FF9B70;
@@ -86,6 +96,7 @@ body {
 }
 .download-cv:hover {
     background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
 }
 
 /**help-info-section**/
@@ -347,10 +358,12 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    transition: 0.5s;
 }
 .email-me:hover {
     background: var(--white, #f9f9f9de);
     cursor:pointer;
+    transition: 0.5s;
 }
 
 /** blog-section **/
